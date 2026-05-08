@@ -1,0 +1,57 @@
+Vinit Bhole 
++44 7840 459000| vinit.bhole@gmail.com | https://www.linkedin.com/in/vinit-bhole-6b2b60292 
+Profile 
+As a committed and motivated B Tech student majoring in Computer Science, I bring a strong foundation 
+in computer science principles and a passion for leveraging technology to solve complex problems. 
+Key Skills: Robotics, Python, Java, React Native, Full Stack Web Development 
+Education 
+Global Indian International School, Singapore 
+10th Grade in Science 
+D.Y. Patil Junior College 
+12th Grade in Science 
+Manipal University Jaipur, Jaipur 
+February 2008 – April 2019 
+May 2019 – June 2021 
+August 2021 – September 2025 
+Bachelor of Technology in Computer Science Engineering  
+Courses – Object Oriented Programming, Data Structures & Algorithm, Cryptography, Data Science, Deep Learning, 
+Artificial Intelligence, Data Communication, RDBMS, Design & Analysis Of Algorithms, Computer Networks 
+University of Southampton, Southampton 
+MSc in Artificial Intelligence 
+Experience 
+October 2025 – Present 
+IT Intern | Strides Pharma, KRS Gardens             
+May 2024 – July 2024 
+Assisted in system administration, server management, and computer networking, contributing to efficient IT 
+operations. 
+• Provided technical support and resolved IT issues, ensuring minimal downtime and maintaining productivity. 
+• Managed user accounts, permissions, and security configurations, enhancing system security and data integrity. 
+• Monitored server performance and performed routine maintenance, optimizing resource utilization. 
+• Collaborated with the IT team to troubleshoot network connectivity issues, improving communication and workflow 
+efficiency. 
+Glatt Systems | Industrial Automation 
+February 2025 – July 2025 
+Assisted in PLC Programming, SCADA Ignition, and supply chain optimization, contributing to efficient automation 
+processes. 
+• Provided technical support and resolved automation issues, ensuring minimal downtime and maintaining 
+productivity. 
+• Developed and maintained PLC programs, enhancing system reliability and operational efficiency. 
+• Configured SCADA Ignition systems for real-time monitoring and control, optimizing resource utilization. 
+• Collaborated with the automation team to implement supply chain optimization strategies, improving workflow 
+efficiency. 
+Academic Projects 
+Smartphone-Controlled Robotic Arm | Raspberry Pi, IoT  
+• Created a robotic arm controlled via smartphone using Raspberry Pi, enabling remote manipulation of objects. 
+• Ran Designed and implemented control algorithms for precise movement and enhanced operational efficiency. 
+Food Delivery App | React Native, Mobile Development                    
+• Developed a fully functional food delivery app using React Native, facilitating user-friendly order placement and tracking. 
+• Implemented responsive UI components and integrated real-time database connectivity for seamless user experience. 
+Clothing Website | Full-Stack Web Development  
+• Built a working clothing website from scratch with a custom back-end, providing a smooth e-commerce experience. 
+• Implemented secure authentication and dynamic product management for enhanced user engagement. 
+Home Automation System | Raspberry Pi, Python, IoT  
+• Developed a home automation script using Raspberry Pi and Python, enabling remote control of home appliances. 
+• Integrated multiple sensors for real-time monitoring and automation of household systems. 
+Hostel Catalogue Website | HTML, CSS, JavaScript  
+• Designed and developed the front end of a hostel catalogue website using HTML, CSS, and JavaScript. 
+• Ensured a responsive design and optimized user navigation for an improved browsing experience. 

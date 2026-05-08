@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vinit Bhole | AI/ML Engineer & Full Stack Developer</title>
+  <meta name="description"
+    content="Portfolio of Vinit Bhole — MSc AI student at University of Southampton, specializing in AI/ML, Full Stack Development, IoT, and Robotics.">
+  <meta property="og:title" content="Vinit Bhole | AI/ML Engineer & Full Stack Developer">
+  <meta property="og:description"
+    content="Crafting intelligent solutions: from AI models to IoT systems. MSc AI @ University of Southampton.">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>⚡</text></svg>">
+</head>
+
+<body>
+
+  <!-- 3D WebGL Background -->
+  <div id="three-container"></div>
+
+  <!-- Cursor -->
+  <div class="cursor-glow" id="cursor-glow"></div>
+  <div class="cursor-dot" id="cursor-dot"></div>
+
+  <!-- Preloader -->
+  <div class="preloader" id="preloader">
+    <div class="preloader-inner">
+      <div class="preloader-text">VB</div>
+      <div class="preloader-counter" id="preloader-counter">0</div>
+      <div class="preloader-bar">
+        <div class="preloader-bar-fill" id="preloader-bar-fill"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scroll Progress -->
+  <div class="scroll-progress" id="scroll-progress"></div>
+
+  <!-- Navbar -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">&lt;VB /&gt;</a>
+      <div class="nav-links" id="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+        <a href="Resume_Vinit_2025.pdf" target="_blank" class="nav-resume magnetic">Resume ↗</a>
+      </div>
+      <div class="hamburger" id="hamburger">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="dot"></span>
+        Available for opportunities
+      </div>
+      <h1 class="hero-tagline split-text">There's a new Dev in town.</h1>
+      <font color="white">
+        <h2 class="hero-name split-text">Meet Vinit!</h2>
+      </font>
+      <div class="hero-roles">
+        I'm a <span class="typing-text"></span><span class="cursor-blink"></span>
+      </div>
+      <p class="hero-subtitle">Crafting intelligent solutions — from AI models to IoT systems</p>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn-primary magnetic">View My Work ↓</a>
+        <a href="Resume_Vinit_2025.pdf" target="_blank" class="btn-outline magnetic">Download Resume ↗</a>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <div class="hero-scroll-text">SCROLL</div>
+      <div class="hero-scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about">
+    <div class="section-container">
+      <div class="about-grid">
+        <div class="about-text">
+          <span class="section-label" data-scramble>About Me</span>
+          <h2 class="section-title split-text">Passionate about building <span>intelligent systems</span></h2>
+          <p class="reveal-text">As a committed and motivated <strong>MSc Artificial Intelligence</strong> student at
+            the <strong>University of Southampton</strong>, I bring a strong foundation in computer science principles
+            and a passion for leveraging technology to solve complex problems.</p>
+          <p class="reveal-text">With hands-on experience spanning <strong>AI/ML, Full Stack Web Development, IoT, and
+              Industrial Automation</strong>, I thrive at the intersection of software and hardware — turning ideas into
+            real-world solutions that matter.</p>
+          <div class="about-stats">
+            <div class="stat-card">
+              <div class="stat-number" data-count="5" data-suffix="+">0</div>
+              <div class="stat-label">Projects Built</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-number" data-count="2" data-suffix="">0</div>
+              <div class="stat-label">Internships</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-number" data-count="10" data-suffix="+">0</div>
+              <div class="stat-label">Tech Skills</div>
+            </div>
+          </div>
+        </div>
+        <div class="education-timeline">
+          <span class="section-label" data-scramble>Education</span>
+          <div class="timeline-line" id="timeline-line"></div>
+          <div class="edu-item current">
+            <div class="edu-date">October 2025 — Present</div>
+            <div class="edu-school">University of Southampton</div>
+            <div class="edu-degree">MSc in Artificial Intelligence</div>
+          </div>
+          <div class="edu-item">
+            <div class="edu-date">August 2021 — September 2025</div>
+            <div class="edu-school">Manipal University Jaipur</div>
+            <div class="edu-degree">B.Tech in Computer Science Engineering</div>
+          </div>
+          <div class="edu-item">
+            <div class="edu-date">May 2019 — June 2021</div>
+            <div class="edu-school">D.Y. Patil Junior College</div>
+            <div class="edu-degree">12th Grade in Science</div>
+          </div>
+          <div class="edu-item">
+            <div class="edu-date">February 2008 — April 2019</div>
+            <div class="edu-school">Global Indian International School, Singapore</div>
+            <div class="edu-degree">10th Grade in Science</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience">
+    <div class="section-container">
+      <span class="section-label" data-scramble>Experience</span>
+      <h2 class="section-title split-text">Where I've <span>worked</span></h2>
+      <div class="experience-cards">
+        <div class="exp-card card-3d">
+          <div class="exp-header">
+            <div class="exp-role">Industrial Automation Engineer</div>
+            <div class="exp-date">Feb 2025 — Jul 2025</div>
+          </div>
+          <div class="exp-company">Glatt Systems</div>
+          <ul class="exp-points">
+            <li>Assisted in PLC Programming, SCADA Ignition, and supply chain optimization</li>
+            <li>Developed and maintained PLC programs, enhancing system reliability and operational efficiency</li>
+            <li>Configured SCADA Ignition systems for real-time monitoring and control</li>
+            <li>Collaborated with the automation team to implement supply chain optimization strategies</li>
+          </ul>
+        </div>
+        <div class="exp-card card-3d">
+          <div class="exp-header">
+            <div class="exp-role">IT Intern</div>
+            <div class="exp-date">May 2024 — Jul 2024</div>
+          </div>
+          <div class="exp-company">Strides Pharma, KRS Gardens</div>
+          <ul class="exp-points">
+            <li>Assisted in system administration, server management, and computer networking</li>
+            <li>Provided technical support and resolved IT issues, ensuring minimal downtime</li>
+            <li>Managed user accounts, permissions, and security configurations</li>
+            <li>Troubleshot network connectivity issues, improving workflow efficiency</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects">
+    <div class="section-container">
+      <span class="section-label" data-scramble>Projects</span>
+      <h2 class="section-title split-text">Things I've <span>built</span></h2>
+      <div class="projects-grid">
+        <div class="project-card featured card-3d">
+          <div class="project-image-wrapper">
+            <img src="assets/project-robotic-arm.webp" alt="Robotic Arm Project" class="project-image"
+              onerror="this.style.background='linear-gradient(135deg,#7c3aed22,#3b82f622)';this.style.height='200px';this.alt='';">
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Smartphone-Controlled Robotic Arm</h3>
+            <p class="project-desc">Created a robotic arm controlled via smartphone using Raspberry Pi, enabling remote
+              manipulation of objects. Designed and implemented control algorithms for precise movement and enhanced
+              operational efficiency.</p>
+            <div class="project-tags">
+              <span class="project-tag">Raspberry Pi</span>
+              <span class="project-tag">IoT</span>
+              <span class="project-tag">Python</span>
+              <span class="project-tag">Robotics</span>
+            </div>
+          </div>
+        </div>
+        <div class="project-card card-3d">
+          <div class="project-image-wrapper">
+            <img src="assets/project-food-app.webp" alt="Food Delivery App" class="project-image"
+              onerror="this.style.background='linear-gradient(135deg,#f59e0b22,#ef444422)';this.style.height='200px';this.alt='';">
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Food Delivery App</h3>
+            <p class="project-desc">Developed a fully functional food delivery app using React Native, with responsive
+              UI components and real-time database connectivity.</p>
+            <div class="project-tags">
+              <span class="project-tag">React Native</span>
+              <span class="project-tag">Mobile</span>
+            </div>
+          </div>
+        </div>
+        <div class="project-card card-3d">
+          <div class="project-image-wrapper">
+            <img src="assets/project-clothing.webp" alt="Clothing Website" class="project-image"
+              onerror="this.style.background='linear-gradient(135deg,#ec489922,#8b5cf622)';this.style.height='200px';this.alt='';">
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Clothing Website</h3>
+            <p class="project-desc">Built a full e-commerce clothing website from scratch with custom back-end, secure
+              authentication, and dynamic product management.</p>
+            <div class="project-tags">
+              <span class="project-tag">Full-Stack</span>
+              <span class="project-tag">E-Commerce</span>
+            </div>
+          </div>
+        </div>
+        <div class="project-card card-3d">
+          <div class="project-image-wrapper">
+            <img src="assets/project-home-auto.webp" alt="Home Automation" class="project-image"
+              onerror="this.style.background='linear-gradient(135deg,#22c55e22,#06b6d422)';this.style.height='200px';this.alt='';">
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Home Automation System</h3>
+            <p class="project-desc">Developed a home automation script using Raspberry Pi and Python, enabling remote
+              control and real-time monitoring of household systems.</p>
+            <div class="project-tags">
+              <span class="project-tag">Raspberry Pi</span>
+              <span class="project-tag">Python</span>
+              <span class="project-tag">IoT</span>
+            </div>
+          </div>
+        </div>
+        <div class="project-card featured card-3d">
+          <div class="project-image-wrapper">
+            <img src="assets/project-hostel.webp" alt="Hostel Catalogue" class="project-image"
+              onerror="this.style.background='linear-gradient(135deg,#3b82f622,#6366f122)';this.style.height='200px';this.alt='';">
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Hostel Catalogue Website</h3>
+            <p class="project-desc">Designed and developed the front end of a hostel catalogue website with responsive
+              design and optimized user navigation for an improved browsing experience.</p>
+            <div class="project-tags">
+              <span class="project-tag">HTML</span>
+              <span class="project-tag">CSS</span>
+              <span class="project-tag">JavaScript</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills">
+    <div class="section-container">
+      <span class="section-label" data-scramble>Skills</span>
+      <h2 class="section-title split-text">My <span>tech stack</span></h2>
+      <div class="skills-grid">
+        <div class="skill-card card-3d">
+          <div class="skill-icon">🐍</div>
+          <div class="skill-name">Python</div>
+        </div>
+        <div class="skill-card card-3d">
+          <div class="skill-icon">☕</div>
+          <div class="skill-name">Java</div>
+        </div>
+        <div class="skill-card card-3d">
+          <div class="skill-icon">⚛️</div>
+          <div class="skill-name">React Native</div>
+        </div>
+        <div class="skill-card card-3d">
+          <div class="skill-icon">🌐</div>
+          <div class="skill-name">HTML / CSS</div>
+        </div>
+        <div class="skill-card card-3d">
+          <div class="skill-icon">📜</div>
+          <div class="skill-name">JavaScript</div>
+        </div>
+        <div class="skill-card card-3d">
+          <div class="skill-icon">🤖</div>
+          <div class="skill-name">AI / ML</div>
+        </div>
+        <div class="skill-card card-3d">
+          <div class="skill-icon">🧠</div>
+          <div class="skill-name">Deep Learning</div>
+        </div>
+        <div class="skill-card card-3d">
+          <div class="skill-icon">🔌</div>
+          <div class="skill-name">IoT</div>
+        </div>
+        <div class="skill-card card-3d">
+          <div class="skill-icon">🍓</div>
+          <div class="skill-name">Raspberry Pi</div>
+        </div>
+        <div class="skill-card card-3d">
+          <div class="skill-icon">🗄️</div>
+          <div class="skill-name">RDBMS</div>
+        </div>
+        <div class="skill-card card-3d">
+          <div class="skill-icon">🔧</div>
+          <div class="skill-name">PLC / SCADA</div>
+        </div>
+        <div class="skill-card card-3d">
+          <div class="skill-icon">🌍</div>
+          <div class="skill-name">Full Stack</div>
+        </div>
+      </div>
+      <div class="courses-section">
+        <h3 class="courses-title">Relevant Coursework</h3>
+        <div class="courses-grid">
+          <span class="course-tag">Object Oriented Programming</span>
+          <span class="course-tag">Data Structures & Algorithms</span>
+          <span class="course-tag">Cryptography</span>
+          <span class="course-tag">Data Science</span>
+          <span class="course-tag">Deep Learning</span>
+          <span class="course-tag">Artificial Intelligence</span>
+          <span class="course-tag">Data Communication</span>
+          <span class="course-tag">Design & Analysis of Algorithms</span>
+          <span class="course-tag">Computer Networks</span>
+          <span class="course-tag">RDBMS</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <div class="section-container">
+      <span class="section-label" data-scramble>Contact</span>
+      <h2 class="section-title split-text">Let's <span>connect</span></h2>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <p class="reveal-text">Whether you have a project in mind, an opportunity to discuss, or just want to say
+            hello — my inbox is always open. Let's build something amazing together.</p>
+          <a href="mailto:vinit.bhole@gmail.com" class="contact-item">
+            <div class="contact-icon">📧</div>
+            <div>
+              <div class="contact-label">Email</div>
+              <div class="contact-value">vinit.bhole@gmail.com</div>
+            </div>
+          </a>
+          <a href="tel:+447840459000" class="contact-item">
+            <div class="contact-icon">📱</div>
+            <div>
+              <div class="contact-label">Phone</div>
+              <div class="contact-value">+44 7840 459000</div>
+            </div>
+          </a>
+          <a href="https://www.linkedin.com/in/vinit-bhole-6b2b60292" target="_blank" class="contact-item">
+            <div class="contact-icon">💼</div>
+            <div>
+              <div class="contact-label">LinkedIn</div>
+              <div class="contact-value">Vinit Bhole</div>
+            </div>
+          </a>
+        </div>
+        <form class="contact-form" id="contact-form">
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" placeholder="John Doe" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Your Email</label>
+            <input type="email" id="email" placeholder="john@example.com" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" placeholder="Tell me about your project or opportunity..." required></textarea>
+          </div>
+          <button type="submit" class="form-submit magnetic">Send Message →</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-name">VINIT</div>
+    <div class="footer-links">
+      <a href="mailto:vinit.bhole@gmail.com" class="footer-link" title="Email">📧</a>
+      <a href="https://www.linkedin.com/in/vinit-bhole-6b2b60292" target="_blank" class="footer-link"
+        title="LinkedIn">💼</a>
+      <a href="tel:+447840459000" class="footer-link" title="Phone">📱</a>
+    </div>
+    <p class="footer-copy">© 2025 Vinit Bhole. All rights reserved.</p>
+  </footer>
+
+  <!-- CDN Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="https://unpkg.com/lenis@1.1.18/dist/lenis.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
